@@ -27,17 +27,42 @@ public class MathLab02st
 
 class Rational
 {
-		
+	int num,den;	
+
 //	Rational
+	public Rational(int n, int d)
+	{
+		num =n;
+		den =d;
+		
+	}
 	
 //	getNum
+	public int getNum()
+	{
+		return num;
+	}
 	
 //	getDen
+	public int getDen()
+	{
+		return den;
+	}
 
 //	getDecimal
+	public double getDecimal()
+	{
+		return (double) num / den;
+	}
 
 //	getRational 
 	
+	public int getRational()
+	{	
+	
+	return num / den;
+	
+	}
 //	getOriginal
 
 //	reduce
